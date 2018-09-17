@@ -1,20 +1,17 @@
 # Memory Game Project
 
-## Table of Contents
-
-* [Instructions](#instructions)
-* [Contributing](#contributing)
+A tile-matching memory game that is a part of the Udacity Front-End Developer Nanodegree programme
 
 ## Instructions
 
-The starter project has some HTML and CSS styling to display a static version of the Memory Game project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
+To play the game, head over to [https://thedorkknightrises.github.io/fend-project-memory-game/](https://thedorkknightrises.github.io/fend-project-memory-game/)
+- Click a tile to reveal it's icon, then do the same for another tile.
+- If the tiles match, the tiles will turn green and remain open.
+- If the tiles do NOT match, the tiles will again be hidden on your next move.
+- Your aim is to match all pairs of tiles based on the icon on each tile.
+- Once all the tiles are matched, you win!
 
-To get started, open `js/app.js` and start building out the app's functionality
-
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
-
-## Contributing
-
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
-
-For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
+Your attempt is timed, and the number of moves are also recorded. Based on the number of moves required to win the game, you will be awarded a star rating
+- **3 stars** :  Solve in less than 30 moves
+- **2 stars** :  Solve in less than 40 moves
+- **1 stars** :  Solve in less than 50 moves
