@@ -103,7 +103,37 @@ h1 {
     display: inline-block;
 }
 
+.score-panel .timer {
+    margin-left: 16px;
+    padding-left: 16px;
+    display: inline-block;
+    margin: 0 5px 0 0;
+}
+
 .score-panel .restart {
     float: right;
     cursor: pointer;
+}
+
+.banner {
+    position: absolute;
+    width: 360px;
+    background: #ffffff url('../img/geometry2.png');
+    color: #000000;
+    border-radius: 8px;
+    font-size: 1.2em;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 5px 2px 20px 0 rgba(46, 61, 73, 0.5);
+    padding: 16px;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.small-text {
+    font-size: 0.8em;
 }
