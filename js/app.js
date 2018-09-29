@@ -41,6 +41,7 @@ function resetGame() {
 	deck = shuffle(deck);
 	matched = 0;
 
+	stopTimer();
 	time = 0;
 	$('.time').text(time);
 
@@ -50,7 +51,7 @@ function resetGame() {
 	$('.deck').empty();
 
 	deck.forEach(function(card, index) {
-   		$('.deck').append(`<li class="card" card-id=${index} symbol=${card}><i class="fa ${card}" ></i></li>`);
+   		$('.deck-'+index%4).append(`<li class="card" card-id=${index} symbol=${card}><i class="fa ${card}" ></i></li>`);
   	});
 
   	$('.card').bind('click', handleCardClick);
