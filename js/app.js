@@ -1,7 +1,7 @@
 /*
  * Create a list that holds all of your cards
  */
- const Symbol = {
+const Symbol = {
     ANCHOR : 'fa-anchor',
     BICYCLE : 'fa-bicycle',
     BOLT : 'fa-bolt',
@@ -18,13 +18,13 @@ const State = {
     MATCH : 'card open match',
 };
 
-deck = [Symbol.ANCHOR, Symbol.ANCHOR, Symbol.BICYCLE, Symbol.BICYCLE, Symbol.BOLT, Symbol.BOLT, Symbol.BOMB, Symbol.BOMB, Symbol.CUBE, Symbol.CUBE, Symbol.DIAMOND, Symbol.DIAMOND, Symbol.LEAF, Symbol.LEAF, Symbol.PLANE, Symbol.PLANE];
-open = [];
-matched = 0;
-moves = 0;
-time = 0;
-stars = 3;
-timer = false;
+let deck = [Symbol.ANCHOR, Symbol.ANCHOR, Symbol.BICYCLE, Symbol.BICYCLE, Symbol.BOLT, Symbol.BOLT, Symbol.BOMB, Symbol.BOMB, Symbol.CUBE, Symbol.CUBE, Symbol.DIAMOND, Symbol.DIAMOND, Symbol.LEAF, Symbol.LEAF, Symbol.PLANE, Symbol.PLANE];
+let open = [];
+let matched = 0;
+let moves = 0;
+let time = 0;
+let stars = 3;
+let timer = false;
 
 init();
 
